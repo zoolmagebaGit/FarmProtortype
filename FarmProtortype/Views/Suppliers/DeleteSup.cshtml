@@ -1,0 +1,41 @@
+﻿@model FarmProtortype.Models.Supplier
+
+<h2>Delete Supplier</h2>
+@using (Html.BeginForm("DeleteSup", "Suppliers", FormMethod.Post, new { id = "popupForm" }))
+{
+
+    @Html.HiddenFor(a => a.SupplierID);
+    <div class="form-group">
+        <label>FirstName</label>
+        <p>@Model.FirstName</p>
+    </div>
+    <div class="form-group">
+        <label>Surname</label>
+        <p>@Model.Surname</p>
+    </div>
+    <div class="form-group">
+        <label>EmailAddress</label>
+        <p>@Model.EmailAddress</p>
+    </div>
+    <div class="form-group">
+        <label>Address</label>
+        <p>@Model.Address</p>
+    </div>
+    <div class="form-group">
+        <label>Type</label>
+        <p>@Model.Type</p>
+    </div>
+    <div class="form-group">
+        <label>Province</label>
+        <p>@Model.Province</p>
+    </div>
+    <div class="form-group">
+        <label>Comment</label>
+        <p>@Model.Comment</p>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Delete" class="btn badge-danger" />
+        </div>
+    </div>
+}

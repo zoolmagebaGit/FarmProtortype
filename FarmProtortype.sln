@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmProtortype", "FarmProtortype\FarmProtortype.csproj", "{28674FBA-2F8F-4F1C-A3C4-7736399717B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmProtortype.Tests", "FarmProtortype.Tests\FarmProtortype.Tests.csproj", "{396EC2F8-E925-45FB-B794-0D9EF72697DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28674FBA-2F8F-4F1C-A3C4-7736399717B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28674FBA-2F8F-4F1C-A3C4-7736399717B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28674FBA-2F8F-4F1C-A3C4-7736399717B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28674FBA-2F8F-4F1C-A3C4-7736399717B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396EC2F8-E925-45FB-B794-0D9EF72697DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396EC2F8-E925-45FB-B794-0D9EF72697DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396EC2F8-E925-45FB-B794-0D9EF72697DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396EC2F8-E925-45FB-B794-0D9EF72697DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36FBA9A1-B226-4550-BE2F-E2F649E9DAB4}
+	EndGlobalSection
+EndGlobal
